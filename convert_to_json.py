@@ -23,4 +23,3 @@ formatted_json = '[\n' + ',\n'.join(json_lines)+ '\n]'
 
 with open(json_path, 'w') as json_file:
     json_file.write(formatted_json)
-

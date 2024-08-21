@@ -9,7 +9,6 @@ import os
 load_dotenv()
 
 
-
 json_path = os.getenv('JSON_PATH')
 
 rentcast_api_key = os.getenv('RENTCAST_API_KEY')
