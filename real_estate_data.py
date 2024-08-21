@@ -22,7 +22,6 @@ client = MongoClient(mongo_url)
 db = client[db_name]
 collection = db[collection_name]
    
-
 with open(json_path, 'r') as file:
     property_data = json.load(file)
 
